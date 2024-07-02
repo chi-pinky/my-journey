@@ -1,0 +1,76 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin:0%;
+    padding: 0%;
+    background-color: #E6E6FA;
+}
+
+
+main { 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+ 
+.profile-image{
+    align-items: center;
+    margin-top: 0;
+} 
+
+.profile_img{
+    max-width: 100%;
+    align-items: center;
+}
+
+header h1{
+    color: black;
+    top: 0;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 0;
+    padding: 10px;
+} 
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 0;
+}
+
+.picture { 
+    width: 582px;
+} 
+
+.goals {
+    width: 576px;
+}
+
+footer {
+    background-color: #2E2353;
+    color: beige;
+    padding: 1rem;
+}
+
+footer nav a{
+    color: white;
+    text-decoration: underline;
+
+}
+
+nav a{
+    display: block; 
+    text-align: center;
+}
+
+.current-info{
+text-align: center;
+}
+
+.copywright{
+    text-align: center;
+
+}

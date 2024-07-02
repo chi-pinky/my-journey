@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>MY JOURNEY</title>
+</head>
+
+<body>
+
+    <header class="web-title">
+        <h1>My journey in 2 years</h1>
+    </header>
+
+    <section>
+        <div class="profile">
+            <div class="picture">
+                <div class="profile-image">
+                    <img class="profile_img" src="./img.jpg" alt="Slack Profile Image"
+                        data-testid="slackprofilepicture">
+                </div>
+            </div>
+
+            <div class="goals">
+                <div class="profile-data">
+                    <h2>My Tech Goals</h2>
+                    <p data-testid="slackDisplayName">Slack display name: <span>Pinky</span></p>
+                    <p>Email:<a href="mailto:[chi.ishicheli]" data-testid="slackEmail"></a>
+                        chi.ishicheli@gmail.com</a>
+                    </p>
+                    <p> In the next two years, I want to master modern technologies, deepen my proficiency in
+                        HTML,CSS, and JavaScript, and gaining expertise in popular frameworks like React. I also
+                        want to Build
+                        a robust portfolio, maintain and update my portfolio website to highlight projects that
+                        would attract potential employers and clients and lastly Contributing to open-source
+                        projects that enhances skills andestablishes credibility within a developers community.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav class="links">
+            <a href="https://hng.tech/learn" data-testid="hngLink">HNG</a>
+            <a href="http://keyword.dog" data-testid="keywordlink">keyword</a>
+            <a href="http://scrapeanyweb.site" data-testid="scrapeanyweblink">scrapeanyweb</a>
+        </nav>
+
+        <div class="current-info">
+            <p data-testid="currentTimeUTC">Time (UTC):
+                <span id="utc-time"></span>
+            </p>
+            <p data-testid="currentDay">Day:
+                <span id="day-of-the-week"></span>
+            </p>
+        </div>
+
+
+        <p class="copywright">&copy; 2024 My Journey. All rights reserved.</p>
+
+        <script src="script.js"></script>
+    </footer>
+
+</body>
+
+</html>
